@@ -52,7 +52,7 @@ public class BasicCmd implements CommandExecutor {
                 } else if (args[0].equalsIgnoreCase("info")) { //plugin information
                     sender.sendMessage(ChatColor.GOLD + "====Basic Server Plugin - info====");
                     sender.sendMessage(ChatColor.YELLOW + "This Plugin is Made By bjw300 and peanutexe");
-                    sender.sendMessage("version : 0.2.0");
+                    sender.sendMessage(ChatColor.YELLOW + "version : 0.2.0");
                     sender.sendMessage(ChatColor.GOLD + "==============================");
                 } else if (args[0].equals("help")) { //plugin help
                     TextComponent message = new TextComponent("command");
