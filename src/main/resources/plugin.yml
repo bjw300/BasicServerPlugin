@@ -1,0 +1,46 @@
+name: BasicServerPlugin
+main: com.cfriend.basicserverplugin.Main
+version: 0.2.0
+api-version: 1.16
+author: bjw300/백조, peanutexe/땅콩
+description: this plugin is Basic Utility plugin, made in Korea
+website: https://github.com/bjw300/BasicServerPlugin
+
+commands:
+  b:
+    description: (command)plugin utility tool
+    usage: /<command> <info|reload|help>
+    aliases: [bsplugin,bs]
+  sb:
+    description: (scoreboard)on/off scoreboard
+    aliases: [informationboard,ib,bscoreboard]
+  warp:
+    description: (command)save/tp location
+    aliases: [bwarp]
+  title:
+    description: (command)set the title
+    aliases: [btitle]
+  money:
+    description: (command)money
+    aliases: [bmoney]
+  pw:
+    description: (gui)private warehouse
+    aliases: [privatewarehouse, privatevault]
+  menu:
+    description: (gui)server menu
+    aliases: [bmenu,m]
+  taskmenu:
+    description: (gui)task menu
+    aliases: [btaskmenu,tmenu,adminmenu,amenu]
+    permission: "default.op"
+  setting:
+    description: (gui)setting
+    aliases: [ bsetting,st ]
+  worldmenu:
+    description: (gui)world menu
+    aliases: [bworldmenu,wmenu]
+
+permissions:
+  default.op:
+    description: (permissions)bs plugin default permissions
+    default: op

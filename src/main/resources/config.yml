@@ -1,0 +1,39 @@
+# Basic Server Plugin Config
+
+#How to set up a tab list
+# ! The number of sequences is editable
+# ! It changes in order every 2 seconds.
+# ! Please use '&' code for color
+# Just put the characters you want in the order you want
+tablist:
+  header:
+    '0': ""
+    '1': ""
+    '2': ""
+    '3': ""
+    '4': ""
+  footer:
+    '0': ""
+    '1': ""
+    '2': ""
+    '3': ""
+    '4': ""
+
+#server-motd: This will be added soon!
+#  first-line:
+#  second-line:
+
+#scoreboard: This will be added soon!
+#  name: '&f<Test Server>'
+#  '0': ChatColor.BLUE + "=============="
+#  '1': "    "
+#  '2': ">  " + Bukkit.getOnlinePlayers().size() + "/" + Bukkit.getMaxPlayers()
+#  '3': "- Online Players"
+#  '4': "   "
+#  '5': ">  " + FileManager.getPlFile().get(player.getUniqueId() + ".money") + " "
+#  '6': "- Your Money"
+#  '7': "  "
+#  '8': ">  " + player.getName()
+#  '9': "- Your Nickname"
+#  '10': ' '
+#  '11': ChatColor.BLUE + "============== "
