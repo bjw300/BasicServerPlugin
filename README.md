@@ -8,6 +8,8 @@ api-version:1.15
 
 developer:bjw300/백조, peanutexe/땅콩
 
+function usage : [Wiki](https://github.com/bjw300/BasicServerPlugin/wiki)
+
 I am not familiar with plugin development yet, so please take a look only for reference.
 
 저는 아직 플러그인 개발에 익숙하지 않으므로 그저 참고용으로만 봐주시길 바랍니다
