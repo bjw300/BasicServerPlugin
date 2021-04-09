@@ -2,13 +2,13 @@
 
 this plugin is minecraft server plugin
 
-plugin version:0.2.1
+plugin version: 0.2.1 alpha
 
-api-version:1.15
+api-version: 1.12+ ~ 1.16+
 
-developer:bjw300/백조, peanutexe/땅콩
+developer: bjw300/백조, peanutexe/땅콩
 
-function usage : [Wiki](https://github.com/bjw300/BasicServerPlugin/wiki)
+function usage: [Wiki](https://github.com/bjw300/BasicServerPlugin/wiki)
 
 I am not familiar with plugin development yet, so please take a look only for reference.
 
@@ -16,9 +16,9 @@ I am not familiar with plugin development yet, so please take a look only for re
 
 Reference/참고
 ------------
-If you would like to give advice on my poor skills, please leave a comment! (Welcome anytime)
+If you would like to give advice on my poor skills, please leave a comment!
 
-만약 저의 서툰 실력을 충고를 하시고 싶다면 댓글로 달아주세요!(언제든 환영)
+만약 저의 서툰 실력을 충고를 하시고 싶다면 댓글로 달아주세요!
 
 function/기능
 ------------
