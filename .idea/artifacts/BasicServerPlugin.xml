@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="BasicServerPlugin">
-    <output-path>$PROJECT_DIR$/../../../../game/Minecraft server/Spigot 1.16.5 test Server(건축)/plugins</output-path>
+    <output-path>$PROJECT_DIR$/../../../../../game/Minecraft server/Test Servers/Spigot 1.17 Test Server/plugins</output-path>
     <root id="archive" name="BasicServerPlugin.jar">
       <element id="module-output" name="BasicServerPlugin" />
     </root>

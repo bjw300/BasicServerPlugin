@@ -9,5 +9,8 @@
         <module name="BasicServerPlugin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BasicServerPlugin" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

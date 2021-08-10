@@ -1,0 +1,44 @@
+name: BasicServerPlugin
+main: com.cfriend.basicserverplugin.bukkit.Main
+version: 0.3.0
+author: bjw300/백조, peanutexe/땅콩
+description: this plugin is Basic Utility plugin, made in Korea
+website: https://github.com/bjw300/BasicServerPlugin
+
+commands:
+  bs:
+    description: basicserverplugin tools
+    aliases: [b,bsplugin]
+  infoboard:
+    description: (scoreboard)on/off informationboard
+    aliases: [ib,informationboard,sb,bscoreboard]
+  warp:
+    description: tp/edit the warp
+    aliases: [bwarp]
+  title:
+    description: edit the title
+    aliases: [btitle]
+  money:
+    description: money related command
+    aliases: [bmoney]
+  privatewarehouse:
+    description: open private warehouse
+    aliases: [pw,privatevault]
+  menu:
+    description: menu open/provide
+    aliases: [m,bmenu]
+  taskmenu:
+    description: taskmenu open/provide
+    aliases: [tmenu,btaskmenu,adminmenu]
+    permission: "default.op"
+  setting:
+    description: open setting
+    aliases: [bsetting]
+  worldmenu:
+    description: open world menu
+    aliases: [bworldmenu]
+
+permissions:
+  default.op:
+    description: (permissions)bs plugin default permissions
+    default: op

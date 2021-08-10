@@ -1,44 +1,42 @@
 name: BasicServerPlugin
-main: com.cfriend.basicserverplugin.Main
-version: 0.2.0
-api-version: 1.16
+main: com.cfriend.basicserverplugin.bukkit.Main
+version: 0.2.1.1 #alpha
 author: bjw300/백조, peanutexe/땅콩
-description: this plugin is Basic Utility plugin, made in Korea
+description: this plugin is Basic Utility plugin
 website: https://github.com/bjw300/BasicServerPlugin
 
 commands:
-  b:
-    description: (command)plugin utility tool
-    usage: /<command> <info|reload|help>
-    aliases: [bsplugin,bs]
-  sb:
-    description: (scoreboard)on/off scoreboard
-    aliases: [informationboard,ib,bscoreboard]
+  bs:
+    description: basicserverplugin tools
+    aliases: [b,bsplugin]
+  infoboard:
+    description: (scoreboard)on/off informationboard
+    aliases: [ib,informationboard,sb,bscoreboard]
   warp:
-    description: (command)save/tp location
+    description: tp/edit the warp
     aliases: [bwarp]
   title:
-    description: (command)set the title
+    description: edit the title
     aliases: [btitle]
   money:
-    description: (command)money
+    description: money related command
     aliases: [bmoney]
-  pw:
-    description: (gui)private warehouse
-    aliases: [privatewarehouse, privatevault]
+  privatewarehouse:
+    description: open private warehouse
+    aliases: [pw,privatevault]
   menu:
-    description: (gui)server menu
-    aliases: [bmenu,m]
+    description: menu open/provide
+    aliases: [m,bmenu]
   taskmenu:
-    description: (gui)task menu
-    aliases: [btaskmenu,tmenu,adminmenu,amenu]
+    description: taskmenu open/provide
+    aliases: [tmenu,btaskmenu,adminmenu]
     permission: "default.op"
   setting:
-    description: (gui)setting
-    aliases: [ bsetting,st ]
+    description: open setting
+    aliases: [bsetting]
   worldmenu:
-    description: (gui)world menu
-    aliases: [bworldmenu,wmenu]
+    description: open world menu
+    aliases: [bworldmenu]
 
 permissions:
   default.op:

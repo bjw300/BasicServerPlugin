@@ -1,39 +1,68 @@
 # Basic Server Plugin Config
 
-#How to set up a tab list
-# ! The number of sequences is editable
-# ! It changes in order every 2 seconds.
-# ! Please use '&' code for color
-# Just put the characters you want in the order you want
-tablist:
-  header:
-    '0': ""
-    '1': ""
-    '2': ""
-    '3': ""
-    '4': ""
-  footer:
-    '0': ""
-    '1': ""
-    '2': ""
-    '3': ""
-    '4': ""
+#How to use these : https://github.com/bjw300/BasicServerPlugin/wiki/
 
 #server-motd: This will be added soon!
 #  first-line:
 #  second-line:
 
-#scoreboard: This will be added soon!
-#  name: '&f<Test Server>'
-#  '0': ChatColor.BLUE + "=============="
-#  '1': "    "
-#  '2': ">  " + Bukkit.getOnlinePlayers().size() + "/" + Bukkit.getMaxPlayers()
-#  '3': "- Online Players"
-#  '4': "   "
-#  '5': ">  " + FileManager.getPlFile().get(player.getUniqueId() + ".money") + " "
-#  '6': "- Your Money"
-#  '7': "  "
-#  '8': ">  " + player.getName()
-#  '9': "- Your Nickname"
-#  '10': ' '
-#  '11': ChatColor.BLUE + "============== "
+#How to set up a join&quit message
+# Write the join message you want!
+# ! "default" is the default join message
+# More description : 3rd line
+join&quit-message:
+  join-message: "&e%player% joined the server."
+  quit-message: "&e%player% has left the server."
+
+#How to set up a tab list
+# Enter the desired characters in "" in the order you want.
+# More description : 3rd line
+tablist:
+  repeating-delay: 40
+  header:
+    '0': "&etest server\n&f=========="
+    '1': "&6test &eserver\n&f=========="
+    '2': "&etest &6server\n&f=========="
+  footer:
+    '0': "==========\nonline players : %onlineplayers%"
+
+#How to set up a scoreboard
+# Enter the desired characters in "" in the order you want.
+# ! The lower the score, the lower the order!
+# More description : 3rd line
+scoreboard:
+  name:
+    basic: "&f<Test Server>"
+    animation:
+      repeating-delay: 10
+      '0': "&f<Test Server>"
+      '1': "&f<<Test Server>>"
+      '2': "&e<<Test Server>>"
+      '3': "&e<<&6Test &eServer>>"
+      '4': "&e<<Test &6Server&e>>"
+      '5': "&e<<Test Server>>"
+      '6': "&f<<Test Server>>"
+      '7': "&f<Test Server>"
+  '11': "&9============== "
+  '10': " "
+  '9': "- Your Nickname"
+  '8': ">   %player%"
+  '7': "  "
+  '6': "- Your Money"
+  '5': ">   %playermoney%"
+  '4': "   "
+  '3': "- Online Players"
+  '2': ">   %onlineplayers%/%maxplayers%"
+  '1': "    "
+  '0': "&9=============="
+
+function_setting:
+  scoreboard: 'on'
+  tablist: 'on'
+  title: 'on'
+  warp: 'on'
+  money: 'on'
+  privatewarehouse: 'on'
+  ExplosionRegen: 'on'
+  tnt_installation_warning_message: 'on'
+  #join&quit-message o/of 추가

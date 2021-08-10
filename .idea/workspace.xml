@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2668c868-f80f-493d-b266-fa314d10e8bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BasicServerPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Patch note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/Updater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/PluginTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/AnvilGUi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/BS/BSPluginMenuGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/CheckGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/Title/TitleManagementGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/Warp/WarpEditGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/Warp/WarpListGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/Warp/WarpManagementGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/servermenu/MenuGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/servermenu/WorldMenuGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/servermenu/taskmenu/OtherMenuGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/servermenu/taskmenu/TaskMenuGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/MoneyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/TitleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/WarpManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/scoreboard/SBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/TabListInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/TabListManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/TabListManager_1_12_R1_1_16_R3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_12/TabListManager_1_12_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_13/TabListManager_1_13_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_13/TabListManager_1_13_R2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_14/TabListManager_1_14_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_15/TabListManager_1_15_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_16/TabListManager_1_16_R1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_16/TabListManager_1_16_R2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/tablist/v1_16/TabListManager_1_16_R3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/BSCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/MoneyCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/TitleCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/WarpCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/tabcompleter/BasicTC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/JoinQuitEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/gui/BS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/gui/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/gui/ServerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/gui/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/gui/Warp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BasicServerPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/BasicServerPlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicServerPlugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicServerPlugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/BasicCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/CmdManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/CmdManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/GuiCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/GuiCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/MoneyCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/PWCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/PWCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/SBCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/SBCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/TitleCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/WarpCmd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/tabcompleter/BasicTC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/tabcompleter/GuiTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/tabcompleter/GuiTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/tabcompleter/MoneyTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/tabcompleter/MoneyTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/tabcompleter/SBTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/tabcompleter/SBTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/tabcompleter/TitleTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/tabcompleter/TitleTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/command/tabcompleter/WarpTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/commands/tabcompleter/WarpTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/event/ExplosionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/ExplosionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/event/ExplosionRegen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/listeners/ExplosionRegen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/event/JoinQuitEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/gui/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/servermenu/BankGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/gui/GuiEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/gui/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/gui/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/gui/servermenu/PlayerSettingGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/gui/TaskMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/gui/WorldMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/MoneyManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/PrivateWarehouseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/PrivateWarehouseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/TabListManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/TitleManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/WarpManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/scoreboard/SBAMManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/api/manager/scoreboard/SBAMManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/function/manager/scoreboard/SBManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/util/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cfriend/basicserverplugin/bukkit/utils/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="BasicServerPlugin/invalid/Minecraft" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1ugx33iz64lhaxtBlPnuVaM0tZB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Dependencies/Bukkit/spigot/1.17/spigot-1.17.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cfriend.basicserverplugin.bukkit.api.manager.tablist.v1_17" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2668c868-f80f-493d-b266-fa314d10e8bb" name="Default Changelist" comment="" />
+      <created>1625100833441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625100833441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

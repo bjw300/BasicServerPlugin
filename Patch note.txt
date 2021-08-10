@@ -1,0 +1,6 @@
+0.2.0 : Foundation frame, root
+
+0.2.1.1 alpha(this update is divided into several phases. 0.2.1.1~0.2.2):
+  1. Optimize(Lots of Bug fixes, etc.)
+  2. Add multiple features(Plugin Gui management menu, Title&Warp Gui Management Menu)
+  3. Multiple version test step
